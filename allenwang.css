@@ -1,6 +1,7 @@
 body {background-color: Azure}
-h1 {text-align: center; font-family: Verdana, Arial, sans-serif}
-h2 {text-align: center; font-family: Courier New, Courier, monospace;}
-nav {text-align: center; margin: 0; padding:0}
-blockquote {text-align: center}
+h1 {text-align: center; font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 60px; margin: 0px 0px 10px 0px}
+h2 {text-align: center; font-family: Georgia, serif; margin: 0px 0px 20px 0px; font-style: italic}
+nav {text-align: center; margin: 0; padding:0; font-size: 18px; font-family: Georgia, serif}
+	a{text-decoration: none}
+blockquote {text-align: center; font-size: 18px}
 img {padding: 70px 70px 70px 70px}
