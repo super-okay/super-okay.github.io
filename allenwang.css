@@ -3,6 +3,7 @@ h1 {text-align: left; font-family: Trebuchet MS, Helvetica, sans-serif; font-siz
 h2 {text-align: left; font-family: Trebuchet MS, Helvetica, sans-serif; margin: 0px 0px 20px 200px; font-style: italic}
 nav {text-align: right; position: absolute; margin: 0; padding:0; top: 20px; right: 50px; font-size: 18px; font-family: Georgia, serif}
 	a{text-decoration: none; color: black; font-style: italic}
+	a:hover{color: LightGray}
 p {text-align: left; font-size: 18px; margin-left: 200px; margin-right: 600px}
 div {margin: auto; position: center; -webkit-column-gap: 0px; -moz-column-gap: 0px; column-gap: 0px; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2}
 img {padding: 40px 20px 40px 20px; margin: auto; display: block; -webkit-column-span: 1; column-span: 1; border-radius: 60px}
