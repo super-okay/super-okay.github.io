@@ -3,7 +3,7 @@
 <head>
 	<meta charset = "utf-8">
 	<title>Allen Wang: Automotive</title>
-	<link rel = "stylesheet" href = "allenwang.css">
+	<link rel = "stylesheet" href = "slidestyle.css">
 </head>
 <body>
 	<header>
@@ -16,14 +16,58 @@
 		<a href = "automotive.html" id = "navT">Automotive</a> &nbsp; <a href = "about.html" id = "navT">About</a>
 	</nav>
 		
-	<div>
-		<img src = "evo.jpg" alt = "Black Evo" width = "600" height = "400">
-		<img src = "s2k.jpg" alt = "Yellow S2000" width = "600" height = "400">
-		<img src = "dodge.jpg" alt = "Red and Blue Dodge" width = "600" height = "400">
-		<img src = "tire.jpg" alt = "White Evo Tire" width = "600" height = "400">
-		<img src = "gtr.jpg" alt = "StanceNation GTR" width = "600" height = "400">
-		<img src = "370z.jpg" alt = "StanceNation 370z" width = "600" height = "400">
-	</div>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+		  <img src="gtr.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="s2k.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="370z.jpg" style="width:100%">
+		</div>
 		
+		<div class="mySlides fade">
+		  <img src="tire.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="evo.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="dodge.jpg" style="width:100%">
+		</div>		
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+	</script>
 </body>
 </html>
