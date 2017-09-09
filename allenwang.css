@@ -7,3 +7,4 @@ nav {text-align: right; position: absolute; margin: 0; padding:0; top: 20px; rig
 p {text-align: left; font-size: 110%; margin-left: 13%; margin-right: 30%}
 div {margin: auto; position: center; -webkit-column-gap: 0px; -moz-column-gap: 0px; column-gap: 0px; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2}
 img {padding: 40px 20px 40px 20px; margin: auto; display: block; -webkit-column-span: 1; column-span: 1}
+#nameLink{text-decoration: none; color: black}
