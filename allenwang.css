@@ -1,46 +1,62 @@
 body {background-color: white}
 
-h1 {text-align: left; 
+h1 {
+	text-align: left; 
 	font-family: Abel; 
 	font-size: 325%; 
 	margin: 0px 0px 0.5% 13%; 
-	letter-spacing: 0.2em}
+	letter-spacing: 0.2em;
+}
 
-h2 {text-align: left; 
+h2 {
+	text-align: left; 
 	font-family: Abel; 
 	margin: 0px 0px 3% 13%; 
-	font-style: italic}
+	font-style: italic;
+}
 
-nav {text-align: right; 
-	 position: absolute; 
-	 top: 3%; right: 5%; 
-	 font-size: 117%; 
-	 font-family: Abel; 
-	 word-spacing: 2em;}
+nav {
+	text-align: right; 
+	position: absolute; 
+	top: 3%; right: 5%; 
+	font-size: 117%; 
+	font-family: Abel; 
+	word-spacing: 2em;
+}
 
-	#navT{text-decoration: none; 
-		  color: black;}
+	#navT{
+		text-decoration: none; 
+		color: black;
+	}
 
 	#navT:hover{text-decoration: underline;}
 
-p {text-align: left; 
-   font-size: 120%; 
-   font-family: Abel; 
-   margin: 2% 15% 0px 13%;}
+p {
+	text-align: left; 
+	font-size: 120%; 
+	font-family: Abel; 
+	margin: 2% 15% 0px 13%;
+}
 
-div {margin: auto; 
-	 position: center; 
-	 -webkit-column-gap: 0px; 
-	 -moz-column-gap: 0px; 
-	 column-gap: 0px; 
-	 -webkit-column-count: 2; 
-	 -moz-column-count: 2; 
-	 column-count: 2}
+div {
+	margin: auto; 
+	position: center; 
+	-webkit-column-gap: 0px; 
+	-moz-column-gap: 0px; 
+	column-gap: 0px; 
+	-webkit-column-count: 2; 
+	-moz-column-count: 2; 
+	column-count: 2;
+}
 
 /*img {padding: 40px 20px 40px 20px; margin: auto; display: block; -webkit-column-span: 1; column-span: 1}*/
 
-#nameLink{text-decoration: none; 
-		  color: black}
+#nameLink{
+	text-decoration: none; 
+	color: black;
+}
 
-#profile{float: left; 
-		 margin: 0px 2% 0px 0px;}
+#profile{
+	float: left; 
+	margin: 0px 2% 0px 0px;
+}

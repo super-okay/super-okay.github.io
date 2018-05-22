@@ -1,36 +1,42 @@
 body {background-color: white}
 
-h1 {text-align: left; 
+h1 {
+	text-align: left; 
 	font-family: Abel; 
 	font-size: 325%; 
 	margin: 0px 0px 0.5% 13%; 
-	letter-spacing: 0.2em}
+	letter-spacing: 0.2em;
+}
 
-h2 {text-align: left; 
+h2 {
+	text-align: left; 
 	font-family: Abel; 
 	margin: 0px 0px 3% 13%; 
-	font-style: italic}
+	font-style: italic;
+}
 
-nav {text-align: right; 
-	 position: absolute; 
-	 top: 3%; right: 5%; 
-	 font-size: 117%; 
-	 font-family: Abel; 
-	 word-spacing: 2em;}
+nav {
+	text-align: right; 
+	position: absolute; 
+	top: 3%; right: 5%; 
+	font-size: 117%; 
+	font-family: Abel; 
+	word-spacing: 2em;
+}
 
-	#navT{text-decoration: none; 
-		color: black;}
+	#navT{
+		text-decoration: none; 
+		color: black;
+	}
 
 	#navT:hover{text-decoration: underline;}
 
-p {text-align: left; 
-   font-size: 110%; 
-   margin-right: 30%; 
-   font-family: Abel}
+#nameLink{
+	text-decoration: none; 
+	color: black;
+}
 
-#nameLink{text-decoration: none; 
-		  color: black}
-
+/* inner div */
 .gallery img{
 	width: 100%;
 	height: auto;
@@ -38,14 +44,32 @@ p {text-align: left;
 
 * { box-sizing: border-box; }
 
+/* outer div */
 .responsive{
-	padding: 0 6px;
-	float: left;
-	width: 49.99999%;
+	/*padding: 0 6px;*/
+	/*float: left;*/
+	margin: auto;
+	margin-top: 2%;
+	width: 50%;
 }
 
-@media only screen and (max-width: 500px){
+/* below 1000px, two images side by side */
+@media only screen and (max-width: 1000px){
+	/* outer div */
 	.responsive{
-		width: 100%;
+		margin: auto;
+		margin-top: 2%;
+		width: 70%;
+	}
+}
+
+/* on mobile phones, width of each image becomes full screen,
+	iPhone 6 has 750 pixel width */
+@media only screen and (max-width: 751px){
+	/* outer div */
+	.responsive{
+		margin: auto;
+		margin-top: 2%;
+		width: 90%;
 	}
 }
