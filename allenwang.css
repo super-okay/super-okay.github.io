@@ -1,4 +1,4 @@
-body {background-color: white}
+body {background-color: white;}
 
 h1 {
 	text-align: left; 
@@ -25,7 +25,7 @@ nav {
 }
 
 	#navT{
-		text-decoration: none; 
+		text-decoration: none;
 		color: black;
 	}
 
@@ -38,25 +38,29 @@ p {
 	margin: 2% 15% 0px 13%;
 }
 
-div {
-	margin: auto; 
-	position: center; 
-	-webkit-column-gap: 0px; 
-	-moz-column-gap: 0px; 
-	column-gap: 0px; 
-	-webkit-column-count: 2; 
-	-moz-column-count: 2; 
-	column-count: 2;
-}
-
-/*img {padding: 40px 20px 40px 20px; margin: auto; display: block; -webkit-column-span: 1; column-span: 1}*/
-
 #nameLink{
 	text-decoration: none; 
 	color: black;
 }
 
-#profile{
-	float: left; 
-	margin: 0px 2% 0px 0px;
+#wrap {
+	margin: auto;
+	margin-bottom: 3%;
+	width: 30%;
+}
+
+@media only screen and (max-width: 1000px){
+	#wrap{
+		margin: auto;
+		margin-bottom: 3%;
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 751px){
+	#wrap{
+		margin: auto;
+		margin-bottom: 3%;
+		width: 80%;
+	}
 }
