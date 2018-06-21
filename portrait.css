@@ -36,8 +36,15 @@ nav {
 	color: black;
 }
 
+/* images */
+.allImages {
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
 /* inner div */
-.gallery img{
+.gallery {
 	width: 100%;
 	height: auto;
 }

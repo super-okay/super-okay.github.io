@@ -3,11 +3,12 @@
 <head>
 	<meta charset = "utf-8">
 	<link href = 'https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-	<link rel = "shortcut icon" type = "image/png" href = "favicon.png">
+	<link rel = "shortcut icon" type = "image/png" href = "images/favicon.png">
 	<title>Allen Wang: Portrait</title>
 	<link rel = "stylesheet" href = "portrait.css">
 </head>
-<body>
+<body onload = "display()" id = "body">
+
 	<header>
 		<h1><a href = "index.html" id = "nameLink">allen wang</a></h1>
 		<h2>portrait photography</h2>
@@ -23,28 +24,37 @@
 
 	<div class = "responsive">
 		<div class = "gallery">
-			<img src = "shab1.jpg" alt = "Shab">
+			<img src = "images/shab1.jpg" alt = "Shab" class = "allImages" onload = "display()">
 		</div>
 	</div>
 	
 	<div class = "responsive">
 		<div class = "gallery">
-			<img src = "ben1.jpg" alt = "Ben">
+			<img src = "images/ben1.jpg" alt = "Ben" class = "allImages" onload = "display()">
 		</div>
 	</div>
 
 	<div class = "responsive">
 		<div class = "gallery">
-			<img src = "elva1.jpg" alt = "Elva">
+			<img src = "images/elva1.jpg" alt = "Elva" class = "allImages" onload = "display()">
 		</div>
 	</div>
 
 	<div class = "responsive">
 		<div class = "gallery">
-			<img src = "sunny2.jpg" alt = "Sunny2">
+			<img src = "images/sunny2.jpg" alt = "Sunny2" class = "allImages" onload = "display()">
 		</div>
-	</div>	
-
 	</div>
+
+	<script>
+		/* wait until images load before displaying */
+		function display(){
+			var i;
+			var imageList = document.getElementsByClassName("allImages");
+			for (i = 0; i < imageList.length; i++){
+				imageList[i].style.display = "block";
+			}
+		}
+	</script>
 </body>
 </html>
