@@ -1,46 +1,55 @@
-body {background-color: white;}
+body {
+	background-color: white;
+}
 
 h1 {
-	text-align: left; 
-	font-family: Abel; 
-	font-size: 325%; 
-	margin: 0px 0px 0.5% 13%; 
+	text-align: left;
+	font-family: Abel;
+	font-size: 325%;
+	margin: 0px 0px 0.5% 13%;
 	letter-spacing: 0.2em;
 }
 
-h2 {
-	text-align: left; 
-	font-family: Abel; 
-	margin: 0px 0px 3% 13%; 
-	font-style: italic;
-}
-
-nav {
-	text-align: right; 
-	position: absolute; 
-	top: 3%; right: 5%; 
-	font-size: 117%; 
-	font-family: Abel; 
-	word-spacing: 2em;
-}
-
-	#navT{
+	#nameLink {
 		text-decoration: none;
 		color: black;
 	}
 
-	#navT:hover{text-decoration: underline;}
-
-p {
-	text-align: left; 
-	font-size: 120%; 
-	font-family: Abel; 
-	margin: 2% 15% 0px 13%;
+h2 {
+	text-align: left;
+	font-family: Abel;
+	margin: 0px 0px 3% 13%;
+	font-style: italic;
 }
 
-#nameLink{
-	text-decoration: none; 
-	color: black;
+nav {
+	text-align: right;
+	position: absolute;
+	top: 3%; right: 5%;
+	font-size: 117%;
+	font-family: Abel;
+	word-spacing: 2em;
+}
+
+	.navT {
+		text-decoration: none;
+		color: black;
+	}
+
+	.navT:hover {
+		text-decoration: underline;
+	}
+
+	#activePage {
+		color: darkorange;
+		font-weight: bold;
+	}
+
+p {
+	text-align: left;
+	font-size: 120%;
+	font-family: Abel;
+	margin: 2% 15% 0px 13%;
 }
 
 #wrap {
@@ -49,16 +58,16 @@ p {
 	width: 30%;
 }
 
-@media only screen and (max-width: 1000px){
-	#wrap{
+@media only screen and (max-width: 1000px) {
+	#wrap {
 		margin: auto;
 		margin-bottom: 3%;
 		width: 50%;
 	}
 }
 
-@media only screen and (max-width: 751px){
-	#wrap{
+@media only screen and (max-width: 751px) {
+	#wrap {
 		margin: auto;
 		margin-bottom: 3%;
 		width: 80%;

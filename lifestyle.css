@@ -1,40 +1,49 @@
-body {background-color: white}
+body {
+	background-color: white;
+}
 
 h1 {
-	text-align: left; 
-	font-family: Abel; 
-	font-size: 325%; 
-	margin: 0px 0px 0.5% 13%; 
+	text-align: left;
+	font-family: Abel;
+	font-size: 325%;
+	margin: 0px 0px 0.5% 13%;
 	letter-spacing: 0.2em;
 }
 
+	#nameLink {
+		text-decoration: none;
+		color: black;
+	}
+
 h2 {
-	text-align: left; 
-	font-family: Abel; 
-	margin: 0px 0px 3% 13%; 
+	text-align: left;
+	font-family: Abel;
+	margin: 0px 0px 3% 13%;
 	font-style: italic;
 }
 
 nav {
-	text-align: right; 
-	position: absolute; 
-	top: 3%; right: 5%; 
-	font-size: 117%; 
-	font-family: Abel; 
+	text-align: right;
+	position: absolute;
+	top: 3%; right: 5%;
+	font-size: 117%;
+	font-family: Abel;
 	word-spacing: 2em;
 }
 
-	#navT{
-		text-decoration: none; 
+	.navT {
+		text-decoration: none;
 		color: black;
 	}
 
-	#navT:hover{text-decoration: underline;}
+	.navT:hover {
+		text-decoration: underline;
+	}
 
-#nameLink{
-	text-decoration: none; 
-	color: black;
-}
+	#activePage {
+		color: darkorange;
+		font-weight: bold;
+	}
 
 /* images */
 .allImages {
@@ -52,16 +61,16 @@ nav {
 * { box-sizing: border-box; }
 
 /* outer div */
-.responsive{
+.responsive {
 	margin: auto;
 	margin-top: 2%;
 	width: 50%;
 }
 
 /* below 1000px, two images side by side */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px) {
 	/* outer div */
-	.responsive{
+	.responsive {
 		margin: auto;
 		margin-top: 2%;
 		width: 70%;
@@ -70,9 +79,9 @@ nav {
 
 /* on mobile phones, width of each image becomes full screen,
 	iPhone 6 has 750 pixel width */
-@media only screen and (max-width: 751px){
+@media only screen and (max-width: 751px) {
 	/* outer div */
-	.responsive{
+	.responsive {
 		margin: auto;
 		margin-top: 2%;
 		width: 90%;

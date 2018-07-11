@@ -12,15 +12,15 @@
 		<h1><a href = "index.html" id = "nameLink">allen wang</a></h1>
 		<h2>automotive photography</h2>
 	</header>
-	
+
 	<nav>
-		<a href = "index.html" id = "navT">home</a> 
-		<a href = "portrait.html" id = "navT">portrait</a>
-		<a href = "lifestyle.html" id = "navT">lifestyle</a> 
-		<a href = "automotive.html" id = "navT">automotive</a>
-		<a href = "about.html" id = "navT">about</a>
+		<a href = "index.html" class = "navT">home</a>
+		<a href = "portrait.html" class = "navT">portrait</a>
+		<a href = "lifestyle.html" class = "navT">lifestyle</a>
+		<a href = "automotive.html" class = "navT" id = "activePage">automotive</a>
+		<a href = "about.html" class = "navT">about</a>
 	</nav>
-		
+
 	<div class = "slideshow-container">
 		<div class = "mySlides fade">
 		  <img src = "images/gtr.jpg" width = "100%">
@@ -33,7 +33,7 @@
 		<div class = "mySlides fade">
 		  <img src = "images/370z.jpg" width = "100%">
 		</div>
-		
+
 		<div class = "mySlides fade">
 		  <img src = "images/tire.jpg" width = "100%">
 		</div>
@@ -44,12 +44,12 @@
 
 		<div class = "mySlides fade">
 		  <img src = "images/dodge.jpg" width = "100%">
-		</div>		
+		</div>
 
 		<a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
 		<a class = "next" onclick = "plusSlides(1)">&#10095;</a>
 	</div>
-	
+
 	<script>
 		var slideIndex = 1;
 		showSlides(slideIndex);
@@ -74,7 +74,7 @@
 				slideIndex = slides.length
 			}
 			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";  
+				slides[i].style.display = "none";
 			}
 			slides[slideIndex-1].style.display = "block";
 		}
