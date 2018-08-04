@@ -4,80 +4,41 @@
 	<meta charset = "utf-8">
 	<link href = 'https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 	<link rel = "shortcut icon" type = "image/png" href = "images/favicon.png">
+	<link rel = "stylesheet" href = "indexStyle.css">
 	<title>Allen Wang: Home</title>
-	<style>
-		html {height: 100%}
-
-		body {
-			background-color: white;
-			background-image: url("images/rmnp.jpg");
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			height: 100%;
-			overflow: hidden;
-		}
-
-		h1 {
-			text-align: center;
-			color: black;
-			font-family: Abel;
-			font-size: 325%;
-			margin: 2% 0px 0.5% 0px;
-			letter-spacing: 0.2em;
-		}
-
-		h2 {
-			text-align: center;
-			color: black;
-			font-family: Abel;
-			margin: 0px 0px 0px 0px;
-			font-style: italic;
-		}
-
-		img {
-			margin: auto;
-			display: block;
-			border-radius: 60px;
-		}
-
-		#nameLink{
-			text-decoration: none;
-			color: black;
-		}
-
-		div{
-			text-align: center;
-			margin: auto;
-			margin-top: 11%;
-		}
-
-		#enter {
-			text-align: center;
-			color: black;
-			font-family: Abel;
-			font-size: 150%;
-			text-decoration: none;
-			border: 2px solid black;
-			padding: 0.5% 1% 0.5% 1%;
-		}
-
-			#enter:hover {
-				color: white;
-				background-color: black;
-			}
-
-	</style>
 </head>
-<body>
-	<header>
-		<h1><a href = "index.html" id = "nameLink">allen wang</a></h1>
-		<h2>photography</h2>
-	</header>
 
-	<div>
-		<a id = "enter" href = "portrait.html">welcome. enter here.</a>
+<body>
+
+	<div id = "background">
+		<header>
+			<h1><a href = "index.html" id = "nameLink">allen wang</a></h1>
+			<h2>photography</h2>
+		</header>
+
+		<p id = "arrow"> &#9586;&#9585; </p>
 	</div>
 
+	<ul id = "nav">
+		<li><a href = "index.html#nav" class = "links" id = "activePage">Portrait</a></li>
+		<li><a href = "lifestyle.html#nav" class = "links">Lifestyle</a></li>
+		<li><a href = "about.html#nav" class = "links">About</a></li>
+		<li><a href = "https://www.instagram.com/superokay.img" target = "_blank" class = "links">Instagram</a></li>
+	</ul>
+
+	<div id = "gallery">
+	  <div class = "column">
+	    <img src = "images/amir.jpg" style = "width: 100%">
+	    <img src = "images/ben2.jpg" style = "width: 100%">
+	  </div>
+	  <div class = "column" style = "width: 100%">
+	    <img src = "images/elva1.jpg" style = "width: 100%">
+			<img src = "images/arpan.jpg" style = "width: 100%">
+	  </div>
+		<div class = "column" style = "width: 100%">
+			<img src = "images/sarang.jpg" style = "width: 100%">
+			<img src = "images/shab1.jpg" style = "width: 100%">
+		</div>
+	</div>
 </body>
 </html>

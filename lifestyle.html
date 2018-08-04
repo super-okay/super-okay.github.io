@@ -4,57 +4,40 @@
 	<meta charset = "utf-8">
 	<link href = 'https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 	<link rel = "shortcut icon" type = "image/png" href = "images/favicon.png">
+	<link rel = "stylesheet" href = "indexStyle.css">
 	<title>Allen Wang: Lifestyle</title>
-	<link rel = "stylesheet" href = "lifestyle.css">
 </head>
+
 <body>
-	<header>
-		<h1><a href = "index.html" id = "nameLink">allen wang</a></h1>
-		<h2>lifestyle photography</h2>
-	</header>
 
-	<nav>
-		<a href = "index.html" class = "navT">home</a>
-		<a href = "portrait.html" class = "navT">portrait</a>
-		<a href = "lifestyle.html" class = "navT" id = "activePage">lifestyle</a>
-		<a href = "automotive.html" class = "navT">automotive</a>
-		<a href = "about.html" class = "navT">about</a>
-	</nav>
+	<div id = "background">
+		<header>
+			<h1><a href = "index.html" id = "nameLink">allen wang</a></h1>
+			<h2>photography</h2>
+		</header>
 
-	<div class = "responsive">
-		<div class = "gallery">
-			<img src = "images/sarang.jpg" alt = "Sarang" class = "allImages" onload = "display()">
-		</div>
+		<p id = "arrow"> &#9586;&#9585; </p>
 	</div>
 
-	<div class = "responsive">
-		<div class = "gallery">
-			<img src = "images/amir.jpg" alt = "Amir" class = "allImages" onload = "display()">
+	<ul id = "nav">
+		<li><a href = "index.html#nav" class = "links">Portrait</a></li>
+		<li><a href = "lifestyle.html#nav" class = "links" id = "activePage">Lifestyle</a></li>
+		<li><a href = "about.html#nav" class = "links">About</a></li>
+		<li><a href = "https://www.instagram.com/superokay.img" target = "_blank" class = "links">Instagram</a></li>
+	</ul>
+
+	<div id = "gallery">
+	  <div class = "column">
+      <img src = "images/gtr.jpg" style = "width: 100%">
+	    <img src = "images/kevin1.jpg" style = "width: 100%">
+	  </div>
+	  <div class = "column" style = "width: 100%">
+      <img src = "images/bridge.jpg" style = "width: 100%">
+			<img src = "images/dodge.jpg" style = "width: 100%">
+	  </div>
+		<div class = "column" style = "width: 100%">
+      <img src = "images/tire.jpg" style = "width: 100%">
 		</div>
 	</div>
-
-	<div class = "responsive">
-		<div class = "gallery">
-			<img src = "images/kevin1.jpg" alt = "Kevin" class = "allImages" onload = "display()">
-		</div>
-	</div>
-
-	<div class = "responsive">
-		<div class = "gallery">
-			<img src = "images/bridge.jpg" alt = "Bridge" class = "allImages" onload = "display()">
-		</div>
-	</div>
-
-	<script>
-		/* wait until images load before displaying */
-		function display(){
-			var i;
-			var imageList = document.getElementsByClassName("allImages");
-			for (i = 0; i < imageList.length; i++){
-				imageList[i].style.display = "block";
-			}
-		}
-	</script>
-
 </body>
 </html>
