@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
+  overflow-y: hidden;
   height: 100%;
 }
 
@@ -63,19 +64,6 @@ h2 {
       from {opacity:0;}
       to {opacity: 1;}
     }
-
-#arrow {
-  text-align: center;
-  margin-top: 34%;
-  color: white;
-  font-size: 225%;
-  font-weight: bold;
-  margin-bottom: 0;
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
-}
 
 #nav {
   list-style-type: none;
