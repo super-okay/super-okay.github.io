@@ -9,7 +9,7 @@ body {
 
 #background {
   background-color: white;
-  background-image: url("images/kwang.jpg");
+  background-image: url("images/elva2.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,8 +70,6 @@ h2 {
   overflow: hidden;
   background-color: black;
   width: 100%;
-  /* position: sticky;
-  position: -webkit-sticky; */
   top: 0; padding: 0; margin: 0;
 }
 
@@ -143,6 +141,7 @@ h2 {
   margin-top: 4%;
   margin-bottom: 4%;
   width: 30%;
+  box-shadow: 5px 8px 10px lightgrey;
 }
 
 #bio {
