@@ -114,19 +114,21 @@ h2 {
   box-shadow: 5px 8px 10px lightgrey;
 }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1000px) { /* two columns for smaller screens */
         .column {
             -ms-flex: 50%;
             flex: 50%;
             max-width: 50%;
+            padding: 2% 2% 0% 2%
         }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 650px) { /* one column for mobile */
         .column {
             -ms-flex: 100%;
             flex: 100%;
             max-width: 100%;
+            padding: 2% 2% 0% 2%
         }
     }
 
