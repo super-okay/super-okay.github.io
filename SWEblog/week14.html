@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>SWE Blog: Week 14</title>
+</head>
+
+<style media="screen">
+  body{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 110%;
+  }
+  p{
+    text-align: left;
+    line-height: 140%;
+    margin: 0% 20% 3% 20%;
+  }
+  img{
+    width: 18%;
+  }
+</style>
+
+<body>
+    <header>
+      <h1>CS373 Spring 2019: Allen Wang</h1>
+    </header>
+
+    <h1>Week 14</h1>
+    <img src="headshot.jpg" alt="headshot">
+    <br>
+    <h2>What did you do this past week?</h2>
+    <p>
+      This past week I finished up the last phase of the project with my group. We were presenting on Friday,
+      so we had to do all six visualizations by then. The visualizations were a bit harder than we expected.
+      JavaScript gave us quite a few problems. We had race conditions when it came to setting state variables.
+      We had to duct tape some of our code to fix this issue, but it all worked out in the end. We practiced our
+      presentation a few times on Thursday night, and practiced one last time right after class. The presentation
+      ended up going pretty smoothly, even though we had to cut out some parts of it due to the time constraint.
+    </p>
+
+    <h2>What's in your way?</h2>
+    <p>
+      I have four exams this upcoming week, which is a bit stressful. I've been studying all weekend, but it's
+      still difficult to juggle four exams at once. I have to rotate between studying each subject in two hour
+      chunks. I wish my Biology exam was actually scheduled during finals week. Even though I'll be done with the
+      semester after this week, I would prefer to have those extra days to study. <br><br>
+
+      Recently I've also realized that there are so many interesting classes that UT has to offer. I'm a little
+      upset that I don't have the time to take everything I want. If it were up to me, I would take an extra
+      semester just to take some cool classes outside the CS department.
+    </p>
+
+    <h2>What will you do next week?</h2>
+    <p>
+      I'll be stuyding and taking my exams. There's nothing else I have my mind on. I just want to get through
+      this week without having to worry too much about my grades.
+    </p>
+
+    <h2>What did you think of the talk by Miriam?</h2>
+    <p>
+      I thought her talk was important. Women are indeed underrepresented in the tech field, and it's necessary
+      to be cognizant of this and other issues that surround the workplace. These topics can be difficult to discuss
+      because there are not many "numbers" or "statistics" to look at, but she explained it in a straightforward and
+      organized manner.
+    </p>
+
+    <h2>What's your pick-of-the-week or tip-of-the-week?</h2>
+    <p>
+      When working with JavaScript state variables in React, sometimes they will not update before the page is loaded.
+      I found a duct tape way to fix this, which forces the component to render. This is definitely not the "right"
+      way to fix the problem, but can be useful in emergencies. "this.forceUpdate()" forces a rerender and will allow
+      the state variable to be set.
+    </p>
+
+</body>
+</html>
