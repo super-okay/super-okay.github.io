@@ -14,20 +14,28 @@ body {
     border-radius: 15px;
 }
 
+.description {
+    font-size: 1.1em;
+    margin-bottom: 2vh;
+}
+
 .link-row {
     width: 100%;
 }
 
 .link-button {
     display: inline-block;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
     border-radius: 25px;
-    font-size: large;
-    padding: 5px 10px;
-    margin: 0.5vh 0.2vw;
+    box-shadow: 5px 5px 8px -4px whitesmoke;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    margin: 0 0.8vw 0.8vh 0;
     cursor: pointer;
 }
 
 .link-button:hover {
-    padding: 5px 20px;
+    /* padding: 5px 25px; */
+    background-color: rgb(184, 184, 184);
+    color:rgb(41, 40, 46);
 }
