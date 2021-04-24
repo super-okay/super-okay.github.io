@@ -16,7 +16,7 @@ body {
 
 .description {
     font-size: 1.1em;
-    margin-bottom: 2vh;
+    margin-bottom: 3%;
 }
 
 .link-row {
@@ -28,6 +28,7 @@ body {
     /* border: 2px solid whitesmoke; */
     border-radius: 10px;
     height: 50px;
+    width: 150px;
     box-shadow: 5px 5px 8px -4px whitesmoke;
     font-size: 1.2em;
     padding: 5px 15px;
