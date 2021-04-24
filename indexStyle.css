@@ -26,7 +26,8 @@ body {
 .link-button {
     display: inline-block;
     /* border: 2px solid whitesmoke; */
-    border-radius: 25px;
+    border-radius: 10px;
+    height: 50px;
     box-shadow: 5px 5px 8px -4px whitesmoke;
     font-size: 1.2em;
     padding: 5px 15px;
@@ -36,6 +37,7 @@ body {
 
 .link-button:hover {
     /* padding: 5px 25px; */
-    background-color: rgb(184, 184, 184);
-    color:rgb(41, 40, 46);
+    /* background-color: rgb(184, 184, 184); */
+    box-shadow: 5px 5px 8px -2px whitesmoke;
+    /* color:rgb(41, 40, 46); */
 }
