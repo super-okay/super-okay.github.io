@@ -5,7 +5,6 @@ body {
 }
 
 .main-div {
-    /* border: 2px solid whitesmoke; */
     box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25), -4px -4px 12px 0 rgba(101, 101, 101, 0.3);
     margin: auto;
     max-width: 1024px;
@@ -17,7 +16,8 @@ body {
 
 .description {
     font-size: 1.1em;
-    margin-bottom: 5%;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
 }
 
 .link-row {
@@ -28,7 +28,8 @@ body {
 
 .link-button {
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    letter-spacing: 1px;
     border-radius: 10px;
     height: 120px;
     width: 120px;
@@ -43,12 +44,17 @@ body {
 
 }
 
+.link-button-content{
+    margin-top: 24px;
+}
+
 .link-button-text {
-    position: absolute;
+    /* position: absolute;
     bottom: 10px;
-    left: 10px;
-    /* text-align: center; */
-    /* margin: auto; */
+    left: 10px; */
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .material-icons.md-36 { font-size: 36px; }
