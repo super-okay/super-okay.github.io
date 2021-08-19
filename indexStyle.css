@@ -6,7 +6,7 @@ body {
 
 /*
 @media only screen and (min-width: 800px) {
-    .main-div {
+    #main-div {
         box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25), -4px -4px 12px 0 rgba(101, 101, 101, 0.3);
         border-radius: 15px;
         margin: auto;
@@ -20,15 +20,15 @@ body {
 
 @media only screen and (max-width: 800px) {
     #main-div {
-        box-shadow: none;
-        border-radius: none;
-        margin: auto;
-        margin-top: 10vh;
-        padding: 20px;
+        box-shadow: none !important;
+        border-radius: none !important;
+        margin: auto !important;
+        margin-top: 10vh !important;
+        padding: 20px !important;
     }
 } 
 
-.description {
+.bio {
     font-size: 1.1em;
     margin-bottom: 70px;
     letter-spacing: 1px;
