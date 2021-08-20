@@ -25,7 +25,14 @@ function checkMobile() {
         hasTouchScreen = navigator.msMaxTouchPoints > 0;
     }
 
-    if (!hasTouchScreen) {
+    styleMainDiv(hasTouchScreen)
+    styleFont(hasTouchScreen)
+    styleButtons(hasTouchScreen)
+}
+
+// helper function to style main div
+function styleMainDiv(isMobile) {
+    if (!isMobile) {
         document.getElementById("main-div").style.boxShadow = "8px 8px 16px 0 rgba(0, 0, 0, 0.25), -4px -4px 12px 0 rgba(101, 101, 101, 0.3)";
         document.getElementById("main-div").style.borderRadius = "15px";
         document.getElementById("main-div").style.margin = "auto";
@@ -38,5 +45,32 @@ function checkMobile() {
         document.getElementById("main-div").style.margin = "auto";
         document.getElementById("main-div").style.marginTop = "10vh";
         document.getElementById("main-div").style.padding = "20px";
+    }
+}
+
+// helper function to style font
+function styleFont(isMobile) {
+    if (!isMobile) {
+        document.getElementById("bio").style.fontSize = "1.1em"
+    }
+    else {
+        document.getElementById("name").style.fontSize = "60px"
+        document.getElementById("bio").style.fontSize = "30px"
+    }
+}
+
+// helper function to style buttons
+function styleButtons(isMobile) {
+    if (isMobile) {
+        var linkButtons = document.getElementsByClassName("link-button")
+        for (var i=0; i < linkButtons.length; i++) {
+            linkButtons[i].style.width = "300px";
+            linkButtons[i].style.height = "300px";
+            linkButtons[i].style.fontSize = "2em";
+        }
+        var linkButtonContent = document.getElementsByClassName("link-button-content")
+        for (var i=0; i < linkButtonContent.length; i++) {
+            linkButtonContent[i].style.marginTop = "100px";
+        }
     }
 }
